@@ -15,6 +15,9 @@ const routes: Routes = [
           	{
      	path: 'core/uhu', loadChildren: './../pages/password/core/uhu/uhu.module#UhuModule'
      	},	
+	     	{
+     	path: 'core/uitwo', loadChildren: './../pages/password/core/uitwo/uitwo.module#UitwoModule'
+     	},	
 	    ]
   }
 ];
