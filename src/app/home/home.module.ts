@@ -1,5 +1,5 @@
 /**
- * Created by Sagar Jadhav.
+ * Created by sagar on 12/2/18.
  */
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
@@ -12,13 +12,8 @@ import {AmexioWidgetModule} from "amexio-ng-extensions";
 const routes: Routes = [
   { path: '', component:HomeComponent,
     children: [
-          	{
-     	path: 'core/uhu', loadChildren: './../pages/password/core/uhu/uhu.module#UhuModule'
-     	},	
-	     	{
-     	path: 'core/uitwo', loadChildren: './../pages/password/core/uitwo/uitwo.module#UitwoModule'
-     	},	
-	    ]
+
+    ]
   }
 ];
 
