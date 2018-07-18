@@ -8,16 +8,16 @@ import { Router } from '@angular/router';
 import { HttpClient, HttpParams } from '@angular/common/http';
 @Component(
 {
-	selector: 'uitesxt',
-	templateUrl: 'uitesxt.component.html'
+	selector: 'fui',
+	templateUrl: 'fui.component.html'
 })
-export class UitesxtComponent implements OnInit
+export class FuiComponent implements OnInit
 {
-	uitesxtModel:UitesxtModel;
+	fuiModel:FuiModel;
 	
 	constructor(private http: HttpClient,private router: Router)
 	{
-		this.uitesxtModel=new UitesxtModel();
+		this.fuiModel=new FuiModel();
 	}
 	ngOnInit()
 	{
@@ -27,6 +27,6 @@ export class UitesxtComponent implements OnInit
 	
 }
 
-export class UitesxtModel
+export class FuiModel
 {
 }
